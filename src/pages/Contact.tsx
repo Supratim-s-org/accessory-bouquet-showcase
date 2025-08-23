@@ -121,12 +121,8 @@ const Contact = () => {
                 </CardHeader>
                 <CardContent className="space-y-3">
                   <div className="flex justify-between">
-                    <span className="text-muted-foreground">Monday - Saturday</span>
-                    <span className="font-medium">10:00 AM - 7:00 PM</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-muted-foreground">Sunday</span>
-                    <span className="font-medium">Closed</span>
+                    <span className="text-muted-foreground">Monday - Sunday</span>
+                    <span className="font-medium">9:00 AM - 9:00 PM</span>
                   </div>
                   <div className="pt-3 border-t border-border">
                     <p className="text-sm text-muted-foreground">
