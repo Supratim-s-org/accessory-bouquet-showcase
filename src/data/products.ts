@@ -2,6 +2,7 @@ export interface Product {
   id: string;
   name: string;
   price: string;
+  originalPrice?: string; // For discount logic
   image: string;
   gallery: string[];
   description: string;
@@ -14,7 +15,8 @@ export const products: Product[] = [
   {
     id: "chocolate-lovers-dream",
     name: "The Chocolate Lover's Dream",
-    price: "₹1,299",
+    price: "₹1,099",
+    originalPrice: "₹1,299",
     image: "/src/assets/chocolate-lovers-dream.jpg",
     gallery: [
       "/src/assets/chocolate-lovers-dream.jpg",
@@ -36,7 +38,8 @@ export const products: Product[] = [
   {
     id: "silver-glam-clutcher",
     name: "The Silver Glam Clutcher",
-    price: "₹1,599",
+    price: "₹1,399",
+    originalPrice: "₹1,599",
     image: "/src/assets/silver-glam-clutcher.jpg",
     gallery: [
       "/src/assets/silver-glam-clutcher.jpg",

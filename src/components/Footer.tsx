@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Instagram, Phone, Mail } from "lucide-react";
+import { Instagram, Phone, Mail, MessageCircle } from "lucide-react";
 
 const Footer = () => {
   const quickLinks = [
@@ -28,7 +28,7 @@ const Footer = () => {
             </p>
             <div className="flex items-center space-x-4">
               <a
-                href="https://instagram.com/mesunflorisse"
+                href="https://instagram.com/_mesunofficial_"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-white transition-smooth"
@@ -36,13 +36,21 @@ const Footer = () => {
                 <Instagram className="w-5 h-5" />
               </a>
               <a
-                href="tel:+919999999999"
+                href="https://wa.me/919875360212"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-white transition-smooth"
+              >
+                <MessageCircle className="w-5 h-5" />
+              </a>
+              <a
+                href="tel:+919875360212"
                 className="p-2 rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-white transition-smooth"
               >
                 <Phone className="w-5 h-5" />
               </a>
               <a
-                href="mailto:hello@mesunflorisse.com"
+                href="mailto:mesunofficial01@gmail.com"
                 className="p-2 rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-white transition-smooth"
               >
                 <Mail className="w-5 h-5" />
@@ -73,31 +81,37 @@ const Footer = () => {
             <div className="space-y-3 text-muted-foreground">
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4" />
-                <a href="tel:+919999999999" className="hover:text-primary transition-smooth">
-                  +91 99999-99999
+                <a href="tel:+919875360212" className="hover:text-primary transition-smooth">
+                  +91 98753-60212
+                </a>
+              </div>
+              <div className="flex items-center space-x-2">
+                <Phone className="w-4 h-4" />
+                <a href="tel:+918100239470" className="hover:text-primary transition-smooth">
+                  +91 81002-39470
                 </a>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4" />
-                <a href="mailto:hello@mesunflorisse.com" className="hover:text-primary transition-smooth">
-                  hello@mesunflorisse.com
+                <a href="mailto:mesunofficial01@gmail.com" className="hover:text-primary transition-smooth">
+                  mesunofficial01@gmail.com
                 </a>
               </div>
               <div className="flex items-center space-x-2">
                 <Instagram className="w-4 h-4" />
                 <a 
-                  href="https://instagram.com/mesunflorisse" 
+                  href="https://instagram.com/_mesunofficial_" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:text-primary transition-smooth"
                 >
-                  @mesunflorisse
+                  @_mesunofficial_
                 </a>
               </div>
             </div>
             <div className="mt-4 text-sm text-muted-foreground">
               <p>Business Hours:</p>
-              <p>Mon - Sat: 10:00 AM - 7:00 PM</p>
+              <p>Mon - Sun: 9:00 AM - 9:00 PM</p>
             </div>
           </div>
         </div>

@@ -8,24 +8,32 @@ const Contact = () => {
       icon: <Instagram className="w-8 h-8" />,
       title: "Instagram DM",
       description: "The fastest way to reach us! We're most active on Instagram.",
-      action: "Message @mesunflorisse",
-      href: "https://instagram.com/mesunflorisse",
+      action: "Message @_mesunofficial_",
+      href: "https://instagram.com/_mesunofficial_",
+      primary: true
+    },
+    {
+      icon: <MessageCircle className="w-8 h-8" />,
+      title: "WhatsApp",
+      description: "Chat with us on WhatsApp for quick orders and responses.",
+      action: "WhatsApp +91 98753-60212",
+      href: "https://wa.me/919875360212",
       primary: true
     },
     {
       icon: <Phone className="w-8 h-8" />,
-      title: "Phone & WhatsApp",
-      description: "Call or WhatsApp us for immediate assistance.",
-      action: "Call +91 99999-99999",
-      href: "tel:+919999999999",
+      title: "Phone Call",
+      description: "Call us directly for immediate assistance.",
+      action: "Call +91 81002-39470",
+      href: "tel:+918100239470",
       primary: true
     },
     {
       icon: <Mail className="w-8 h-8" />,
       title: "Email",
       description: "For detailed inquiries or custom order discussions.",
-      action: "hello@mesunflorisse.com",
-      href: "mailto:hello@mesunflorisse.com",
+      action: "mesunofficial01@gmail.com",
+      href: "mailto:mesunofficial01@gmail.com",
       primary: false
     }
   ];
@@ -198,15 +206,15 @@ const Contact = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild variant="hero" size="lg">
-              <a href="https://instagram.com/mesunflorisse" target="_blank" rel="noopener noreferrer">
+              <a href="https://instagram.com/_mesunofficial_" target="_blank" rel="noopener noreferrer">
                 <Instagram className="w-5 h-5 mr-2" />
                 Message Us on Instagram
               </a>
             </Button>
             <Button asChild variant="soft" size="lg">
-              <a href="tel:+919999999999">
-                <Phone className="w-5 h-5 mr-2" />
-                Call Us Now
+              <a href="https://wa.me/919875360212" target="_blank" rel="noopener noreferrer">
+                <MessageCircle className="w-5 h-5 mr-2" />
+                WhatsApp Us Now
               </a>
             </Button>
           </div>

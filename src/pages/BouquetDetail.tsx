@@ -4,7 +4,7 @@ import { products } from "@/data/products";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
-import { Instagram, Phone, ArrowLeft, Check } from "lucide-react";
+import { Instagram, Phone, ArrowLeft, Check, MessageCircle } from "lucide-react";
 
 const BouquetDetail = () => {
   const { id } = useParams<{ id: string }>();
@@ -78,9 +78,16 @@ const BouquetDetail = () => {
               <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-2">
                 {product.name}
               </h1>
-              <p className="text-2xl font-bold text-primary mb-4">
-                {product.price}
-              </p>
+              <div className="flex items-center gap-3 mb-4">
+                <p className="text-2xl font-bold text-primary">
+                  {product.price}
+                </p>
+                {product.originalPrice && (
+                  <p className="text-xl text-muted-foreground line-through">
+                    {product.originalPrice}
+                  </p>
+                )}
+              </div>
               <p className="text-muted-foreground text-lg">
                 {product.description}
               </p>
@@ -114,15 +121,21 @@ const BouquetDetail = () => {
             {/* Call to Action */}
             <div className="space-y-4">
               <h3 className="text-xl font-semibold">Ready to Order?</h3>
-              <div className="flex flex-col sm:flex-row gap-3">
-                <Button asChild variant="hero" size="lg" className="flex-1">
-                  <a href="https://instagram.com/mesunflorisse" target="_blank" rel="noopener noreferrer">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+                <Button asChild variant="hero" size="lg" className="w-full">
+                  <a href="https://instagram.com/_mesunofficial_" target="_blank" rel="noopener noreferrer">
                     <Instagram className="w-5 h-5 mr-2" />
                     Order on Instagram
                   </a>
                 </Button>
-                <Button asChild variant="soft" size="lg" className="flex-1">
-                  <a href="tel:+919999999999">
+                <Button asChild variant="soft" size="lg" className="w-full">
+                  <a href="https://wa.me/919875360212" target="_blank" rel="noopener noreferrer">
+                    <MessageCircle className="w-5 h-5 mr-2" />
+                    WhatsApp Order
+                  </a>
+                </Button>
+                <Button asChild variant="outline" size="lg" className="w-full">
+                  <a href="tel:+918100239470">
                     <Phone className="w-5 h-5 mr-2" />
                     Call to Order
                   </a>

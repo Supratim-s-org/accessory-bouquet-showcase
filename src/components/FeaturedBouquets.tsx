@@ -42,10 +42,11 @@ const FeaturedBouquets = () => {
             <ProductCard
               key={product.id}
               id={product.id}
-              name={product.name}
-              price={product.price}
-              image={product.image}
-              featured={product.featured}
+                name={product.name}
+                price={product.price}
+                originalPrice={product.originalPrice}
+                image={product.image}
+                featured={product.featured}
             />
           ))}
         </div>

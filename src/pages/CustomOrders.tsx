@@ -59,15 +59,15 @@ const CustomOrders = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild variant="hero" size="lg">
-              <a href="https://instagram.com/mesunflorisse" target="_blank" rel="noopener noreferrer">
+              <a href="https://instagram.com/_mesunofficial_" target="_blank" rel="noopener noreferrer">
                 <Instagram className="w-5 h-5 mr-2" />
                 DM Us Your Ideas
               </a>
             </Button>
             <Button asChild variant="soft" size="lg">
-              <a href="tel:+919999999999">
-                <Phone className="w-5 h-5 mr-2" />
-                Call to Discuss
+              <a href="https://wa.me/919875360212" target="_blank" rel="noopener noreferrer">
+                <MessageCircle className="w-5 h-5 mr-2" />
+                WhatsApp to Discuss
               </a>
             </Button>
           </div>
@@ -148,7 +148,7 @@ const CustomOrders = () => {
                   </p>
                 </div>
                 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   <Card className="border-primary/20">
                     <CardContent className="p-6 text-center">
                       <Instagram className="w-12 h-12 text-primary mx-auto mb-4" />
@@ -157,8 +157,23 @@ const CustomOrders = () => {
                         Send us your ideas, inspiration photos, and budget range
                       </p>
                       <Button asChild variant="hero" className="w-full">
-                        <a href="https://instagram.com/mesunflorisse" target="_blank" rel="noopener noreferrer">
-                          Message @mesunflorisse
+                        <a href="https://instagram.com/_mesunofficial_" target="_blank" rel="noopener noreferrer">
+                          Message @_mesunofficial_
+                        </a>
+                      </Button>
+                    </CardContent>
+                  </Card>
+
+                  <Card className="border-primary/20">
+                    <CardContent className="p-6 text-center">
+                      <MessageCircle className="w-12 h-12 text-primary mx-auto mb-4" />
+                      <h3 className="text-xl font-semibold mb-2">WhatsApp</h3>
+                      <p className="text-muted-foreground mb-4">
+                        Chat with us directly for quick responses
+                      </p>
+                      <Button asChild variant="soft" className="w-full">
+                        <a href="https://wa.me/919875360212" target="_blank" rel="noopener noreferrer">
+                          WhatsApp +91 98753-60212
                         </a>
                       </Button>
                     </CardContent>
@@ -171,9 +186,9 @@ const CustomOrders = () => {
                       <p className="text-muted-foreground mb-4">
                         Discuss your vision directly with our team
                       </p>
-                      <Button asChild variant="soft" className="w-full">
-                        <a href="tel:+919999999999">
-                          Call +91 99999-99999
+                      <Button asChild variant="outline" className="w-full">
+                        <a href="tel:+918100239470">
+                          Call +91 81002-39470
                         </a>
                       </Button>
                     </CardContent>
@@ -182,7 +197,7 @@ const CustomOrders = () => {
 
                 <div className="text-center text-sm text-muted-foreground">
                   <p>
-                    <strong>Business Hours:</strong> Monday - Saturday, 10:00 AM - 7:00 PM<br />
+                    <strong>Business Hours:</strong> Monday - Sunday, 9:00 AM - 9:00 PM<br />
                     Response time: Usually within 2-4 hours during business hours
                   </p>
                 </div>
