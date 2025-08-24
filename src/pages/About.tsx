@@ -98,7 +98,7 @@ const About = () => {
               <div className="lg:col-span-1">
                 <div className="aspect-square rounded-xl overflow-hidden shadow-elegant">
                   <img
-                    src="/src/assets/founders.jpg"
+                    src="/founders.jpg"
                     alt="Founder of MeSun Florisse"
                     className="w-full h-full object-cover aspect-square"
                   />
