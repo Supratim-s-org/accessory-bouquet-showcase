@@ -12,7 +12,7 @@ const HowItWorks = () => {
     {
       icon: <MessageCircle className="w-12 h-12" />,
       title: "Contact Us",
-      description: "Reach out via Instagram DM or phone call to place your order",
+      description: "Reach out via Instagram DM, WhatsApp or phone call to place your order",
       color: "secondary"
     },
     {

@@ -59,7 +59,7 @@ const InstagramShowcase = () => {
           <Button asChild variant="hero">
             <a href="https://instagram.com/_mesunofficial_" target="_blank" rel="noopener noreferrer">
               <Instagram className="w-5 h-5 mr-2" />
-              Follow @mesunflorisse
+              Follow @_mesunofficial_
             </a>
           </Button>
         </div>

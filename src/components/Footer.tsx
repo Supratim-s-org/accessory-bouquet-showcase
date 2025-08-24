@@ -17,7 +17,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 gradient-primary rounded-full"></div>
+              <img src="/logo.png" alt="MeSun Florisse Logo" className="w-8 h-8 rounded-full object-cover" />
               <span className="text-xl font-bold text-foreground">
                 MeSun Florisse
               </span>
@@ -80,9 +80,9 @@ const Footer = () => {
             <h3 className="font-semibold text-foreground mb-4">Contact</h3>
             <div className="space-y-3 text-muted-foreground">
               <div className="flex items-center space-x-2">
-                <Phone className="w-4 h-4" />
-                <a href="tel:+919875360212" className="hover:text-primary transition-smooth">
-                  +91 98753-60212
+                <MessageCircle className="w-4 h-4" />
+                <a href="https://wa.me/919875360212" className="hover:text-primary transition-smooth">
+                  WhatsApp Us
                 </a>
               </div>
               <div className="flex items-center space-x-2">

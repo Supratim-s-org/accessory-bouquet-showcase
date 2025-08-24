@@ -55,8 +55,8 @@ export const products: Product[] = [
   {
     id: "choco-blooms",
     name: "Choco Blooms",
-    price: "₹999",
-    originalPrice: "₹1,299",
+    price: "₹899",
+    originalPrice: "₹1,699",
     image: "/pic3.jpg",
     gallery: [
       "/pic3.jpg",
@@ -67,7 +67,8 @@ export const products: Product[] = [
       "Chocolate Truffles",
       "Chocolate Bars",
       "Decorative Ribbons",
-      "Artificial Flowers"
+      "Artificial Flowers",
+      "Totally Customizable"
     ],
     dimensions: "Approx. 21 inches tall",
     featured: false
@@ -75,8 +76,8 @@ export const products: Product[] = [
   {
     id: "clip-florals",
     name: "Clip Florals",
-    price: "₹1,799",
-    originalPrice: "₹1,299",
+    price: "₹499",
+    originalPrice: "₹999",
     image: "/pic4.jpg",
     gallery: [
       "/pic4.jpg"
@@ -94,8 +95,8 @@ export const products: Product[] = [
   {
     id: "clippie-blooms",
     name: "Clippie Blooms", 
-    price: "₹1,399",
-    originalPrice: "₹1,299",
+    price: "₹799",
+    originalPrice: "₹1,499",
     image: "/pic5.jpg",
     gallery: [
       "/pic5.jpg"
@@ -113,8 +114,8 @@ export const products: Product[] = [
   {
     id: "minimalist-chic",
     name: "Minimalist Chic",
-    price: "₹899",
-    originalPrice: "₹1,299",
+    price: "₹449",
+    originalPrice: "₹899",
     image: "/pic6.jpg",
     gallery: [
       "/pic6.jpg"

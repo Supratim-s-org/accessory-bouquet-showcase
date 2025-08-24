@@ -23,7 +23,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-2">
-              <img src="/logo.png" alt="MeSun Florisse Logo" className="w-8 h-8 rounded-full object-cover aspect-square" />
+              <img src="/logo.png" alt="MeSun Florisse Logo" className="w-8 h-8 rounded-full object-cover" />
               <span className="text-xl font-bold text-foreground">
                 MeSun Florisse
               </span>
